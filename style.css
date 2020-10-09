@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 10px!important;
+}
+body {
+    background: rgba(80,10,78,1)!important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.noteCard{
+    /* width: 45%; */
+    height: 8rem!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#logout{
+    margin-top: -16px;
+}
+.noteCard, #addBtn, .updateButn, #logout{
+    background:  rgb(151, 9, 146)!important;
+    transition: all 0.5s ease;
+    position: relative;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.75);
+}
+
+.noteCard:hover, #addBtn:hover, .updateButn:hover, #logout:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 15px 0px rgba(245,233,245,0.1);
+}
+.btns {
+    position: absolute;
+    border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color:  rgba(80,10,78,1);
+    background-color: white;
+    font-size: 18px;
+	transition: all 0.3s ease-in-out;
+	font-weight: normal;
+}
+.btns:hover{
+    background-color:  rgb(58, 4, 56);
+    color: rgba(247, 223, 10, 0.842);
+}
+
+.stickit{
+    opacity: 0.5;
+}
+.delete{
+    top: 0.5rem;
+    right: 1rem;
+}
+.edits{
+    top: 0.5rem;
+    right: 4rem;
+}
+.search::placeholder{
+    font-size: 1.1rem;
+}
+.sh{
+    box-shadow: 2px 1px 26px 0px rgba(0,0,0,0.75);
+    outline: none;
+    
+}
+#openModal{
+    padding: 40px;
+}
+.cross{
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    font-size: 2rem!important;
+}
+.btn{
+    background-color: rgba(80,10,78,1) !important;
+}
